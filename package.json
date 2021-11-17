@@ -1,0 +1,15 @@
+{
+  "name": "websitechecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "usoroh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pa11y": "^6.1.0"
+  }
+}
