@@ -8,7 +8,8 @@
   "description": "'social media app api'",
   "main": "server.js",
   "scripts": {
-    "start": "node server"
+    "dev": "nodemon ./server.js",
+    "start": "node server.js"
   },
   "author": "'Ogefere Ogheneruno'",
   "license": "ISC",
