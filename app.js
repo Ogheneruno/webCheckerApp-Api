@@ -14,6 +14,10 @@ const pa11y = require('pa11y');
 
 app.use(cors());
 
+app.get('/', (req, res) => {
+    res.send('Working Well');
+});
+
 app.get('/api/v1/test', async (req, res) => {
     // if(!req.query.url) {
     //     res.status(400).json({error: 'Url is required'})
