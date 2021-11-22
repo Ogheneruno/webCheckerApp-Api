@@ -26,7 +26,7 @@ app.get('/api/v1/test', async (req, res) => {
     //     res.status(200).json(results)
     // }
 
-    try {
+//     try {
         if(!req.query.url) {
             res.status(400).json({success: false, msg: 'Url is required'});
         } else {
@@ -41,9 +41,9 @@ app.get('/api/v1/test', async (req, res) => {
         // if(!allTodos) return res.status(500).json({success: false, msg: 'No todos found'});
         console.log(req.query.url)
 
-    } catch (err) {
+//     } catch (err) {
         return res.status(400).json({success:false, msg: err.message});
-    }
+//     }
     
 })
 
