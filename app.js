@@ -42,7 +42,7 @@ app.get('/api/v1/test', async (req, res) => {
         console.log(req.query.url)
 
 //     } catch (err) {
-        return res.status(400).json({success:false, msg: err.message});
+//         return res.status(400).json({success:false, msg: err.message});
 //     }
     
 })
